@@ -1,0 +1,15 @@
+# طريقة تشغيل كود البحث (بالعربي)
+
+1. نزّلي ملف البيانات من UCI: https://doi.org/10.24432/C5F88Q
+2. احفظي الملف باسم `online_shoppers_intention.csv` بجانب ملف `jeit_purchase_intention.py`.
+3. افتحي Google Colab أو بيئة Python وثبتي المكتبات:
+   `pip install -r requirements.txt`
+4. شغّلي التحليل الكامل:
+   `python jeit_purchase_intention.py --data online_shoppers_intention.csv --steps main,shap,extended`
+5. انتظري حتى ينتهي. النتائج ستظهر داخل مجلد `results`.
+6. احتفظي بكل ملفات CSV والرسوم وملف `run_info.json`. لا تنقلي أرقامًا من تشغيل سريع أو من نسخة قديمة.
+
+مهم:
+- خيار `--quick` للتأكد من أن الكود يعمل فقط، وليس لإنتاج النتائج النهائية للبحث.
+- الكود الحالي يستخدم إعدادات النماذج المحددة مسبقًا ولا ينفذ GridSearchCV. لذلك لا تكتبي في البحث أنه تم استخدام GridSearchCV.
+- إذا ظهر خطأ، انسخي رسالة الخطأ كاملة وأرسليها لي.

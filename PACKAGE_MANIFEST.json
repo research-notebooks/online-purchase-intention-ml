@@ -1,0 +1,6 @@
+{
+  "script": "jeit_purchase_intention.py",
+  "script_sha256": "90eed026e5d1d47c43973a95bafe90c8a827b2b1db0a4539a70d1ba9da135e5e",
+  "dataset_required": "online_shoppers_intention.csv (download separately from UCI)",
+  "execution_status": "Script syntax validated only; full dataset execution and SHAP output have not been verified in this environment."
+}

@@ -1,0 +1,10 @@
+# Core dependencies
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+shap
+
+# Optional: XGBoost baseline (script skips it if not installed)
+xgboost
