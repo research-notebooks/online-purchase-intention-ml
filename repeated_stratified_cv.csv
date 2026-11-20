@@ -1,0 +1,9 @@
+model,representation,repeats,folds_per_repeat,n_fold_scores,cv_f1_mean,cv_f1_sd
+LinearSVC,74,3,5,15,0.606971,0.019277
+LinearSVC,10,3,5,15,0.615189,0.013922
+KNN,74,3,5,15,0.474841,0.029337
+KNN,10,3,5,15,0.594775,0.029756
+ExtraTrees,74,3,5,15,0.66417,0.016378
+ExtraTrees,10,3,5,15,0.664773,0.013497
+HistGradientBoosting,74,3,5,15,0.668212,0.018585
+HistGradientBoosting,10,3,5,15,0.663902,0.016319

@@ -1,0 +1,9 @@
+Dataset: Online Shoppers Purchasing Intention
+Source: UCI Machine Learning Repository, dataset 468
+DOI: https://doi.org/10.24432/C5F88Q
+Dataset license stated by UCI: Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+The dataset is redistributed in this reproducibility package for research reproducibility with attribution to the UCI Machine Learning Repository and the original dataset creators. Please consult the UCI record for the current license and attribution requirements.
+
+SHA-256 of the included CSV used for this revision:
+b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9

@@ -1,0 +1,29 @@
+GITHUB UPDATE CHECKLIST — JEIT REVISION
+
+The currently published repository was verified as public, but its existing README and script still describe the older 80-session SHAP analysis. It has NOT been updated by this package.
+
+Before the final journal submission, open the public repository and upload/replace these files from this revision package:
+
+REPLACE existing files:
+- README.md
+- RUN_INSTRUCTIONS_AR.txt
+- jeit_purchase_intention.py
+- requirements.txt
+- PACKAGE_MANIFEST.json
+
+ADD new files/folders:
+- reviewer_supplementary.py
+- DATASET_ATTRIBUTION.txt
+- REVIEWER_REQUEST_COVERAGE.md
+- JEIT_Colab_Run_All.ipynb
+- online_shoppers_intention.csv
+- results/ (SHAP outputs and run_info.json)
+- reviewer_results/ (matched metrics, nested/repeated CV, ablations, group analysis, bootstrap tables, Figure 1, metadata)
+
+Important:
+- Keep the currently published anonymous MIT `LICENSE` (generic copyright notice). Do NOT replace it with a personalized license file. The package copy has been normalized to the same anonymous notice.
+- The package `.gitignore` is identical to the current repository copy; no replacement is needed.
+1. Do not leave any older README or script statement that SHAP used 80 sessions as the paper's final method.
+2. Do not claim GitHub reproduces the revision until the new files are uploaded and you have run the commands from README.md.
+3. Keep the dataset attribution file and UCI DOI beside the dataset.
+4. After updating GitHub, open the repository in a private/incognito window and confirm the new script, README and result folders are visible without logging in.

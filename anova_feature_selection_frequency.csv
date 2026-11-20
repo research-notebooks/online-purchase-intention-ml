@@ -1,0 +1,13 @@
+feature,selected_folds
+categorical__Month_Nov,5
+categorical__TrafficType_2,5
+numeric__Administrative,5
+numeric__BounceRates,5
+numeric__ExitRates,5
+numeric__PageValues,5
+numeric__ProductRelated,5
+numeric__ProductRelated_Duration,5
+categorical__VisitorType_New_Visitor,4
+categorical__VisitorType_Returning_Visitor,3
+numeric__Administrative_Duration,2
+numeric__Informational,1

@@ -1,0 +1,25 @@
+طريقة تشغيل كود مراجعة JEIT
+
+المتطلبات:
+1) افتحي Google Colab أو بيئة Python.
+2) ارفعي ملفات الحزمة، وتأكدي أن ملف online_shoppers_intention.csv موجود بجانب ملفات Python.
+3) ثبتي المكتبات:
+   pip install -r requirements.txt
+
+تشغيل المقارنة الأساسية وتحليل SHAP:
+   python jeit_purchase_intention.py --data online_shoppers_intention.csv --steps main,shap
+
+تشغيل جميع التحليلات الإضافية التي طلبها المحكّمون:
+   python reviewer_supplementary.py --data online_shoppers_intention.csv --out reviewer_results
+
+مجلدات النتائج:
+- results: جداول SHAP، Bootstrap، وأشكال SHAP.
+- reviewer_results: المقارنة المتطابقة، Nested CV، Repeated CV، مقارنة طرق اختيار الخصائص، حساسية k، حذف PageValues، فحص التكرارات، وGroup-aware evaluation.
+
+مهم جدًا:
+- جميع البذور العشوائية الأساسية = 42.
+- SHAP يستخدم 1,200 جلسة اختبار مشتركة بين النموذجين و1,000 إعادة Bootstrap.
+- لا تستخدمي نتائج وضع --quick في البحث؛ هذا الوضع لاختبار التشغيل فقط.
+- لا تخلطين نتائج من تشغيل سريع أو من إصدار قديم.
+- توقيت توفر PageValues وBounceRates وExitRates أثناء الجلسة غير مثبت من وثائق البيانات؛ انخفاض الأداء بعد حذفها لا يثبت تسرب البيانات.
+- احتفظي بملفات CSV والرسومات وملفات metadata/run_info مع حزمة البحث.

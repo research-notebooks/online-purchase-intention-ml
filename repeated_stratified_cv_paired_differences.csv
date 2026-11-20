@@ -1,0 +1,5 @@
+model,repeats,paired_fold_scores,mean_difference_10_minus_74,sd_difference,note
+LinearSVC,3,15,0.008218,0.01629,Descriptive paired fold differences; folds are dependent across repeats.
+KNN,3,15,0.119934,0.016755,Descriptive paired fold differences; folds are dependent across repeats.
+ExtraTrees,3,15,0.000603,0.015243,Descriptive paired fold differences; folds are dependent across repeats.
+HistGradientBoosting,3,15,-0.00431,0.011233,Descriptive paired fold differences; folds are dependent across repeats.
