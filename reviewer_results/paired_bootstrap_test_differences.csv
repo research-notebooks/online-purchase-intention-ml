@@ -1,0 +1,9 @@
+model,metric,difference_10_minus_74,ci95_low,ci95_high,probability_positive,bootstrap_resamples
+LinearSVC,F1,0.03452,0.01261,0.05494,1.0,1000
+LinearSVC,Average Precision,0.00728,-0.00299,0.01749,0.914,1000
+KNN,F1,0.1258,0.08246,0.17,1.0,1000
+KNN,Average Precision,0.08492,0.04796,0.11792,1.0,1000
+ExtraTrees,F1,0.01179,-0.01542,0.04018,0.786,1000
+ExtraTrees,Average Precision,-0.00568,-0.02792,0.01379,0.298,1000
+HistGradientBoosting,F1,-0.00504,-0.01689,0.00744,0.201,1000
+HistGradientBoosting,Average Precision,-0.00478,-0.01183,0.00257,0.094,1000
