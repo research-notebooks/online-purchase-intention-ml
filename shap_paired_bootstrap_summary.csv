@@ -1,2 +1,0 @@
-sample_n,bootstrap_resamples,seed,rho_mean,rho_median,rho_p2_5,rho_p97_5,top5_overlap_mean,top5_overlap_min,top5_overlap_p2_5,top5_overlap_p97_5
-1200,1000,42,0.9505,0.9636,0.9027,0.9879,4.353,4,4.0,5.0
