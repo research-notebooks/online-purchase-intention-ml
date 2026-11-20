@@ -1,2 +1,0 @@
-accuracy,balanced_accuracy,precision,recall,f1,average_precision,roc_auc,TN,FP,FN,TP
-0.8450932684509327,0.5,0.0,0.0,0.0,0.1549067315490673,0.5,2084,0,382,0
